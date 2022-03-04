@@ -2,6 +2,7 @@
 <div>
   <NavBar />
   <SectionOne />
+  <Form />
   <About />
   <Tracks />
   <Sponsors />
@@ -13,6 +14,7 @@
 <script>
 import SectionOne from './SectionOne.vue'
 import NavBar from './NavBar.vue'
+import Form from './Form.vue'
 import About from './About.vue'
 import Tracks from './Tracks.vue'
 import Sponsors from './Sponsors.vue'
@@ -27,6 +29,7 @@ export default {
   components: {
     NavBar,
     SectionOne,
+    Form,
     About,
     Tracks,
     Sponsors,
